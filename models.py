@@ -37,6 +37,10 @@ class Supplier(Base):
 
     supplier_name = Column(String(100))
 
+    phone = Column(String(20))
+
+    email = Column(String(100))
+
     products = relationship(
 
         "Product",

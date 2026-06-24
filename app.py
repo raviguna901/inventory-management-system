@@ -331,7 +331,10 @@ elif menu == "Suppliers":
             json=data
         )
 
-        st.success(response.json())
+        if response.status_code == 200:
+            st.success("Operation Successful")
+        else:
+            st.error(response.text)
 
     st.divider()
 

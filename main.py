@@ -9,7 +9,7 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {
-        "message": "Inventory Management System API"
+        "message": "Inventory Management System FASTAPI"
     }
 
 #CREATE Product
