@@ -422,7 +422,7 @@ Inventory Value   : ₹90,00,600
 
 # 👨‍💻 Author
 
-Ravi Guna
+Ravikiran 
 
 Built using:
 
